@@ -1,0 +1,18 @@
+@use '../../abstract/letter-sizing';
+
+    .result-body {
+        background-color: #2C3333;
+        color: #CBE4DE;
+    }
+
+    .incorrect-item {
+        background-color: red;
+        color: aliceblue;
+        padding: .35rem .5rem;
+    }
+
+    .correct-item {
+        background-color: green;
+        color: aliceblue;
+        padding: .35rem .5rem;
+    }

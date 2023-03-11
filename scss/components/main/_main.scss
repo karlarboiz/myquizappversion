@@ -1,0 +1,14 @@
+@use '../../abstract/compilerfile';
+#main {
+    margin: 8rem auto 0 auto;
+    background-color: #2C3333;
+    color: #CBE4DE;
+}
+
+#main >div {
+    padding: 1rem .75rem;
+}
+
+.hide {
+    display: none;
+}

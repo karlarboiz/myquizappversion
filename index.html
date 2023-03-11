@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/functionality/quiz.js" defer></script>
+    <script src="assets/bootstrapbundle/bootstrap.bundle.js" defer></script>
+   
+
+</head>
+<body>
+
+    <div id="main" class="container-sm shadow-sm rounded p-3 col-lg-6">
+ 
+        <div class="row">
+            <label for="topic" class="col-5  text-center" >
+             Topic
+            </label>
+           <div class="col-6">
+            <select name="topic" class="form-select form-select-lg">
+                <option value=""></option>
+                <option value="geography">Geography</option>
+                <option value="history">History</option>
+                <option value="science">Science</option>
+                <option value="music">Music</option>
+            </select>
+           </div>
+        </div>
+    
+        <div class="row">
+            <label for="difficulty" class="col-5 text-center">Difficulty:</label>
+            <div class="col-6">
+                <select name="difficulty" class="form-select form-select-lg">
+                    <option value=""></option>
+                    <option value="easy">easy</option>
+                    <option value="medium">medium</option>
+                    <option value="hard">hard</option>
+        
+                </select>
+            </div>
+          
+        </div>
+    
+      <div>
+     
+        <label for="item" class="col-5 text-center">Number of Items: <span class="item-value"></span></label>
+        <input name="item" type="range" min="0" max="20" step="5" class="col-6">
+      </div>
+
+      <div>
+        <label for="timer" class="col-5 text-center">Timer Duration: <span class="timer-value"></span></label>
+        <input name="timer" type="range" min="0" max="20" step="5" class="col-6">
+      </div>
+
+      
+    </div>
+
+   <div class="btn-div container-sm text-center p-5 align-self-center">
+        <button id="btn-start" type="button">
+            Start Quiz
+        </button>
+
+        <button id="next-item__btn" type="button" class="hide">
+            Show Item
+        </button>
+
+        <button id="final-page__btn" type="button" class="hide">
+            Show Results
+        </button>
+
+        <button id="restart-page__btn" type="button" class="hide">
+            Restart
+        </button>
+   </div>
+
+
+    
+</body>
+</html>

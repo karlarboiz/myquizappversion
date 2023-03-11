@@ -1,0 +1,33 @@
+{
+    "name": "bootstrap-v5",
+    "version": "1.0.0",
+    "description": "Learning bootstrap v5 with sass",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "sass --watch scss:assets/css",
+        "start": "npm-run-all --parallel compile:sass"
+    },
+    "keywords": [
+        "Bootstrap",
+        "bootstrap-v5",
+        "sass",
+        "learn-bootstrap",
+        "learn-sass"
+    ],
+    "author": "Patrick Muriungi",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.32.12"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "animate.css": "^4.1.1",
+        "autoprefixer": "^10.4.13",
+        "bootstrap": "^5.0.0",
+        "npm-run-all": "^4.1.5"
+    },
+
+    "animateConfig": {
+        "prefix": "myCustomPrefix__"
+      }
+}
